@@ -1,1 +1,5 @@
-Converter Project
+# Converter Project
+
+The ConverterApp is a console-based Java application designed to perform unit conversions between different countries. It allows users to select the starting and ending countries from options such as the US, Canada, Mexico, and Europe. After selecting the countries, users can choose the type of conversion they want to perform, which can be either distance, weight, or currency. Based on the conversion type and the selected countries, the app determines the appropriate units for input and output, guiding the user through the conversion process.
+
+Once the user enters the value to be converted, the app executes the conversion by calling methods located in separate Java files within the same repository, such as performDistanceConversion, performWeightConversion, and performCurrencyConversion. These methods, which are implemented in their respective classes, contain the actual formulas or conversion rates necessary to perform the calculations. After displaying the converted value, the app prompts the user to perform another conversion. If the user responds affirmatively, the process repeats; otherwise, the app terminates. While the basic structure of the app is in place, the conversion logic is handled in the separate classes and is ready to be expanded or modified as needed.
